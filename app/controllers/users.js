@@ -103,3 +103,19 @@ return encrypt.HashPwd(salt, req.body.password)
         }
     );});
 };
+
+module.exports.createUser = function(req,res,next){
+  var data = {};
+  data.username = req.body.username;
+  data.password = req.body.password;
+  data.role = req.body.role;
+  data.location = req.body.location;
+  data.fName = req.body.fName;
+  data.salt = encrypt.CreateSalt();
+  encrypt.HashPwd(data.salt, data.password)
+      .then(function (val) {data.password = val;
+        var user = new User(data);
+      user.save(function(err,result){if(err){console.log(err);}
+      else{res.json([{meta: {'status_code': 200}}, {data: 'User Crested succesfully.'}]);}});
+    });
+};

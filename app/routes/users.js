@@ -19,6 +19,9 @@ router.put('/:userName', function(req, res, next) {
   userController.updateUser(req, res, next);
 });
 
+router.post('/', function(req, res, next) {
+  userController.createUser(req, res, next);
+});
 
 
 module.exports = router;

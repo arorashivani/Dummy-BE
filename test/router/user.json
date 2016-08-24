@@ -1,0 +1,27 @@
+[
+  {
+"_id": "57bd49c7983aba6424fb42fb",
+"username": "hcltech",
+"role": "Admin",
+"location": "Noida",
+"fName": "HCL",
+"__v": 0,
+"updatedAt": null,
+"createdAt": "2016-08-24T07:16:23.692Z",
+"authToken": {}
+},
+{
+"_id": "57bd49c7983aba6424fb42fd",
+"username": "admin",
+"role": "Admin",
+"location": "Noida",
+"fName": "ADMIN",
+"__v": 0,
+"updatedAt": null,
+"createdAt": "2016-08-24T07:16:23.982Z",
+"authToken": {
+"expiresAt": "2019-08-24T11:31:58.082Z",
+"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE0NzIwMzI5MTgsImV4cCI6MTQ3MjAzODMxOH0.ymTIoUWihB__mlh9oJChq2NA-NO8l-uIuWSwvSAdCO0"
+}
+}
+]
