@@ -1,0 +1,17 @@
+{
+  "host": "localhost",
+  "port": 3001,
+  "dbUrl": "mongodb://localhost/HCL-test",
+  "dbPort": "27017",
+  "jwtSecret": "Test-HCLsecret...",
+  "tokenExpiresIn": 5400,
+  "MANDRILL_KEY": "y2QuVB-qxKJ6qBvfLUrZJw",
+  "templates": {
+    "registration": "registration-tpl",
+    "forgotPassword": "forgotpassword-tpl",
+    "forgotSecurity": "forgotsecurity-tpl"
+  },
+  "frontendUrl": "http://localhost:8892",
+  "resumeUploadPath": "uploads/",
+  "maxFileSize": "6168576"
+}

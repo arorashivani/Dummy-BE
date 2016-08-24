@@ -1,0 +1,11 @@
+node_modules
+.idea/workspace.xml
+dist
+.idea/vcs.xml
+.idea
+spike
+coverage
+uploads
+dumpUtility/dump
+.tern-project
+logs/logfile.log

@@ -1,0 +1,18 @@
+{
+  "host": "localhost",
+  "port": 3000,
+  "dbUrl": "mongodb://localhost/hcldb",
+  "dbPort": "27017",
+  "jwtSecret": "HCLsecret...",
+  "tokenExpiresIn": 5400,
+  "MANDRILL_KEY": "rTdBTLIsxArajURZBfJJHg",
+  "templates": {
+    "registration": "registration-tpl",
+    "forgotPassword": "forgotpassword-tpl",
+    "forgotSecurity": "forgotsecurity-tpl"
+   },
+  "protocol": "https://",
+  "frontendUrl": "http://localhost:8892",
+  "maxFileSize": "6168576",
+  "unsubscribeUrl": "/unsubscribe"
+}

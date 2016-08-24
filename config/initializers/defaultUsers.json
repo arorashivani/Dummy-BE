@@ -1,0 +1,53 @@
+{
+  "suppliers": {
+
+    "name": "MSP Internal",
+    "desc": "Pride Supplie",
+    "mainContact": {
+      "mainContactName": "Pride Global",
+      "mainContactPhone": "212-235-5350"
+    },
+    "supplierID": 1,
+    "companyPhone": "212-235-5350",
+    "mainLocation": {
+      "address1": "Lexington",
+      "address2": "42 Street",
+      "city": "New York",
+      "state": "New York",
+      "postalCode": "10170",
+      "country": "USA"
+    },
+    "companyID": "pride-msp",
+    "fedTaxId": "dummyId23"
+  },
+
+  "users": [{
+    "userID": 1,
+    "email": "msp@testuser.com",
+    "rToken": {
+      "token": "iMmmmmmmmmmmmmanhattanscasauuuuuuuusdasdasdasdasssssss1",
+      "type": "register"
+    },
+    "isRegistered": true,
+    "isActive": true,
+    "companyName": "Pride One",
+    "userType": "msp",
+    "firstName": "MSP User",
+    "lastName": "MSP",
+    "preferredName": "MSP User",
+    "permissionGroupIDs": [
+      "MSP_DEFAULT"
+    ],
+    "authToken": {
+      "token": "test-token-for-testing"
+    },
+    "mspOnly": {
+      "clientAccessType": "All"
+    },
+    "supplierOnly":{
+    },
+    "salt": "",
+    "password": "",
+    "updatedAt": ""
+  }]
+}
